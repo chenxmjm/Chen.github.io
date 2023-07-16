@@ -25,25 +25,27 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"chenxmjm.github.io.com","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.17.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="follow my heart">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Chen&#39;s blog">
-<meta property="og:url" content="http://chenxmjm.github.io.com/index.html">
+    <meta name="description" content="[TOC]  目录基本定义1.2 注释单行注释   &#x2F; 内容 &#x2F;多行注释  &#x2F;* 内容*&#x2F; 1.3 变量意义：给一段内存空间取名，方便我们管理内存空间创建语法：数据类型 变量名 &#x3D; 变量初始值 1.4 常量宏常量（define）使用方法：#define 常量名 常量值 静态变量const 数据类型 变量名 &#x3D; 变量值 1.5 关键字（标识">
+<meta property="og:type" content="article">
+<meta property="og:title" content="C++">
+<meta property="og:url" content="http://chenxmjm.github.io.com/2023/07/16/C/index.html">
 <meta property="og:site_name" content="Chen&#39;s blog">
-<meta property="og:description" content="follow my heart">
+<meta property="og:description" content="[TOC]  目录基本定义1.2 注释单行注释   &#x2F; 内容 &#x2F;多行注释  &#x2F;* 内容*&#x2F; 1.3 变量意义：给一段内存空间取名，方便我们管理内存空间创建语法：数据类型 变量名 &#x3D; 变量初始值 1.4 常量宏常量（define）使用方法：#define 常量名 常量值 静态变量const 数据类型 变量名 &#x3D; 变量值 1.5 关键字（标识">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2023-07-16T06:46:49.000Z">
+<meta property="article:modified_time" content="2023-07-16T06:53:51.724Z">
 <meta property="article:author" content="Chen">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="http://chenxmjm.github.io.com/">
+<link rel="canonical" href="http://chenxmjm.github.io.com/2023/07/16/C/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"en","comments":"","permalink":"","path":"index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"http://chenxmjm.github.io.com/2023/07/16/C/","path":"2023/07/16/C/","title":"C++"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Chen's blog</title>
+<title>C++ | Chen's blog</title>
   
 
 
@@ -76,7 +78,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <h1 class="site-title">Chen's blog</h1>
+      <p class="site-title">Chen's blog</p>
       <i class="logo-line"></i>
     </a>
   </div>
@@ -129,7 +131,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           Table of Contents
@@ -142,6 +144,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%9B%AE%E5%BD%95"><span class="nav-number">1.</span> <span class="nav-text">目录</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E5%AE%9A%E4%B9%89"><span class="nav-number">1.1.</span> <span class="nav-text">基本定义</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-2-%E6%B3%A8%E9%87%8A"><span class="nav-number">1.1.1.</span> <span class="nav-text">1.2 注释</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#1-3-%E5%8F%98%E9%87%8F"><span class="nav-number">1.1.2.</span> <span class="nav-text">1.3 变量</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#1-4-%E5%B8%B8%E9%87%8F"><span class="nav-number">1.1.3.</span> <span class="nav-text">1.4 常量</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%AE%8F%E5%B8%B8%E9%87%8F%EF%BC%88define%EF%BC%89"><span class="nav-number">1.1.3.1.</span> <span class="nav-text">宏常量（define）</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E9%9D%99%E6%80%81%E5%8F%98%E9%87%8F"><span class="nav-number">1.1.3.2.</span> <span class="nav-text">静态变量</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#1-5-%E5%85%B3%E9%94%AE%E5%AD%97%EF%BC%88%E6%A0%87%E8%AF%86%E7%AC%A6%EF%BC%89"><span class="nav-number">1.1.4.</span> <span class="nav-text">1.5 关键字（标识符）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#1-6-%E6%A0%87%E8%AF%86%E7%AC%A6%E5%91%BD%E5%90%8D%E8%A7%84%E5%88%99"><span class="nav-number">1.1.5.</span> <span class="nav-text">1.6 标识符命名规则</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E4%B8%8E%E8%BE%93%E5%85%A5"><span class="nav-number">1.2.</span> <span class="nav-text">数据类型与输入</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#2-1%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B"><span class="nav-number">1.2.1.</span> <span class="nav-text">2.1数据类型</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-2-sizeof%E5%85%B3%E9%94%AE%E5%AD%97"><span class="nav-number">1.2.2.</span> <span class="nav-text">2.2 sizeof关键字</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-3-%E6%B5%AE%E7%82%B9%E5%9E%8B%EF%BC%88float%EF%BC%89"><span class="nav-number">1.2.3.</span> <span class="nav-text">2.3 浮点型（float）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-4-%E5%AD%97%E7%AC%A6%E5%9E%8B"><span class="nav-number">1.2.4.</span> <span class="nav-text">2.4 字符型</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-5%E8%BD%AC%E4%B9%89%E5%AD%97%E7%AC%A6"><span class="nav-number">1.2.5.</span> <span class="nav-text">2.5转义字符</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-6%E5%AD%97%E7%AC%A6%E4%B8%B2"><span class="nav-number">1.2.6.</span> <span class="nav-text">2.6字符串</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#2-7%E5%B8%83%E5%B0%94%E7%B1%BB%E5%9E%8B%EF%BC%88bool%EF%BC%89"><span class="nav-number">1.2.6.1.</span> <span class="nav-text">2.7布尔类型（bool）</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-8-%E6%95%B0%E6%8D%AE%E7%9A%84%E8%BE%93%E5%85%A5"><span class="nav-number">1.2.7.</span> <span class="nav-text">2.8 数据的输入</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="nav-number">1.3.</span> <span class="nav-text">运算符</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#3-1-%E7%AE%97%E6%9C%AF%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="nav-number">1.3.1.</span> <span class="nav-text">3.1 算术运算符</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-2-%E8%B5%8B%E5%80%BC%E8%BF%90%E7%AE%97"><span class="nav-number">1.3.2.</span> <span class="nav-text">3.2 赋值运算</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-3-%E6%AF%94%E8%BE%83%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="nav-number">1.3.3.</span> <span class="nav-text">3.3 比较运算符</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-4-%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="nav-number">1.3.4.</span> <span class="nav-text">3.4 逻辑运算符</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%A8%8B%E5%BA%8F%E6%B5%81%E7%A8%8B%E7%BB%93%E6%9E%84"><span class="nav-number">1.4.</span> <span class="nav-text">程序流程结构</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#4-1-%E9%80%89%E6%8B%A9%E7%BB%93%E6%9E%84"><span class="nav-number">1.4.1.</span> <span class="nav-text">4.1 选择结构</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#4-1-1-if%E8%AF%AD%E5%8F%A5"><span class="nav-number">1.4.1.1.</span> <span class="nav-text">4.1.1 if语句</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#%E5%8D%95%E8%A1%8Cif"><span class="nav-number">1.4.1.1.1.</span> <span class="nav-text">单行if</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#%E5%A4%9A%E8%A1%8Cif"><span class="nav-number">1.4.1.1.2.</span> <span class="nav-text">多行if</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#%E5%A4%9A%E6%9D%A1%E4%BB%B6if%E8%AF%AD%E5%8F%A5"><span class="nav-number">1.4.1.1.3.</span> <span class="nav-text">多条件if语句</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#if%E8%AF%AD%E5%8F%A5%E7%9A%84%E5%B5%8C%E5%A5%97"><span class="nav-number">1.4.1.1.4.</span> <span class="nav-text">if语句的嵌套</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#4-1-2-%E4%B8%89%E7%9B%AE%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="nav-number">1.4.1.2.</span> <span class="nav-text">4.1.2 三目运算符</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#4-1-3-switch%E8%AF%AD%E5%8F%A5"><span class="nav-number">1.4.1.3.</span> <span class="nav-text">4.1.3 switch语句</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84"><span class="nav-number">1.4.2.</span> <span class="nav-text">循环结构</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#4-2-1while-%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5"><span class="nav-number">1.4.2.1.</span> <span class="nav-text">4.2.1while 循环语句</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#4-2-2-do%E2%80%A6-while%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5"><span class="nav-number">1.4.2.2.</span> <span class="nav-text">4.2.2 do….while循环语句</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#4-2-3-for%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5"><span class="nav-number">1.4.2.3.</span> <span class="nav-text">4.2.3 for循环语句</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#4-2-4-%E5%B5%8C%E5%A5%97%E5%BE%AA%E7%8E%AF"><span class="nav-number">1.4.2.4.</span> <span class="nav-text">4.2.4 嵌套循环</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-3-%E8%B7%B3%E8%BD%AC%E8%AF%AD%E5%8F%A5"><span class="nav-number">1.4.3.</span> <span class="nav-text">4.3 跳转语句</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#4-3-1-break%E8%AF%AD%E5%8F%A5"><span class="nav-number">1.4.3.1.</span> <span class="nav-text">4.3.1 break语句</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#4-3-2-continue%E8%AF%AD%E5%8F%A5"><span class="nav-number">1.4.3.2.</span> <span class="nav-text">4.3.2 continue语句</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#4-3-3-goto%E8%AF%AD%E5%8F%A5"><span class="nav-number">1.4.3.3.</span> <span class="nav-text">4.3.3 goto语句</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-%E6%95%B0%E7%BB%84"><span class="nav-number">1.5.</span> <span class="nav-text">5. 数组</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#5-1-%E6%95%B0%E7%BB%84%E6%A6%82%E8%BF%B0"><span class="nav-number">1.5.0.1.</span> <span class="nav-text">5.1 数组概述</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#5-2-%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84"><span class="nav-number">1.5.0.2.</span> <span class="nav-text">5.2 一维数组</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#5-2-1-%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89%E6%96%B9%E5%BC%8F"><span class="nav-number">1.5.0.2.1.</span> <span class="nav-text">5.2.1 一维数组的定义方式</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#5-2-2-%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84%E6%95%B0%E7%BB%84%E5%90%8D"><span class="nav-number">1.5.0.2.2.</span> <span class="nav-text">5.2.2 一维数组数组名</span></a></li></ol></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-3%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84"><span class="nav-number">1.5.1.</span> <span class="nav-text">5.3二维数组</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#5-3-1-%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89"><span class="nav-number">1.5.1.1.</span> <span class="nav-text">5.3.1 二维数组的定义</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#5-3-2-%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E6%95%B0%E7%BB%84%E5%90%8D"><span class="nav-number">1.5.1.2.</span> <span class="nav-text">5.3.2 二维数组的数组名</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%87%BD%E6%95%B0"><span class="nav-number">1.6.</span> <span class="nav-text">函数</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#6-1-%E5%87%BD%E6%95%B0%E6%A6%82%E8%BF%B0"><span class="nav-number">1.6.1.</span> <span class="nav-text">6.1 函数概述</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6-2-%E5%87%BD%E6%95%B0%E7%9A%84%E5%AE%9A%E4%B9%89"><span class="nav-number">1.6.2.</span> <span class="nav-text">6.2 函数的定义</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6-3-%E5%87%BD%E6%95%B0%E7%9A%84%E8%B0%83%E7%94%A8"><span class="nav-number">1.6.3.</span> <span class="nav-text">6.3 函数的调用</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6-4-%E5%80%BC%E4%BC%A0%E9%80%92"><span class="nav-number">1.6.4.</span> <span class="nav-text">6.4 值传递</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6-5-%E5%87%BD%E6%95%B0%E7%9A%84%E5%B8%B8%E8%A7%81%E6%A0%B7%E5%BC%8F"><span class="nav-number">1.6.5.</span> <span class="nav-text">6.5 函数的常见样式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6-6-%E5%87%BD%E6%95%B0%E7%9A%84%E5%A3%B0%E6%98%8E"><span class="nav-number">1.6.6.</span> <span class="nav-text">6.6 函数的声明</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6-7-%E5%87%BD%E6%95%B0%E7%9A%84%E5%88%86%E6%96%87%E4%BB%B6%E7%BC%96%E5%86%99"><span class="nav-number">1.6.7.</span> <span class="nav-text">6.7 函数的分文件编写</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#7-%E6%8C%87%E9%92%88"><span class="nav-number">1.7.</span> <span class="nav-text">7. 指针</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#7-1-amp-2-%E6%8C%87%E9%92%88%E7%9A%84%E5%AE%9A%E4%B9%89%E4%B8%8E%E4%BD%BF%E7%94%A8"><span class="nav-number">1.7.1.</span> <span class="nav-text">7.1&amp;2 指针的定义与使用</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#7-3-%E6%8C%87%E9%92%88%E6%89%80%E5%8D%A0%E7%94%A8%E7%9A%84%E5%86%85%E5%AD%98%E7%A9%BA%E9%97%B4"><span class="nav-number">1.7.2.</span> <span class="nav-text">7.3 指针所占用的内存空间</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#7-4-%E7%A9%BA%E6%8C%87%E9%92%88%E5%92%8C%E9%87%8E%E6%8C%87%E9%92%88"><span class="nav-number">1.7.3.</span> <span class="nav-text">7.4 空指针和野指针</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#7-5-const%E4%BF%AE%E9%A5%B0%E6%8C%87%E9%92%88"><span class="nav-number">1.7.4.</span> <span class="nav-text">7.5 const修饰指针</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#7-6-%E6%8C%87%E9%92%88%E4%B8%8E%E6%95%B0%E7%BB%84"><span class="nav-number">1.7.5.</span> <span class="nav-text">7.6 指针与数组</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#7-7-%E6%8C%87%E9%92%88%E4%B8%8E%E5%87%BD%E6%95%B0"><span class="nav-number">1.7.6.</span> <span class="nav-text">7.7 指针与函数</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#8-%E7%BB%93%E6%9E%84%E4%BD%93"><span class="nav-number">1.8.</span> <span class="nav-text">8. 结构体</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#8-1-%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5"><span class="nav-number">1.8.1.</span> <span class="nav-text">8.1 基本概念</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#8-2-%E7%BB%93%E6%9E%84%E4%BD%93%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A8"><span class="nav-number">1.8.2.</span> <span class="nav-text">8.2 结构体的定义和使用</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#8-3-%E7%BB%93%E6%9E%84%E4%BD%93%E6%95%B0%E7%BB%84"><span class="nav-number">1.8.3.</span> <span class="nav-text">8.3 结构体数组</span></a></li></ol></li></ol></li></ol></div>
 
           
 
@@ -233,267 +236,17 @@
 
     </div>
 
-    <div class="main-inner index posts-expand">
+    <div class="main-inner post posts-expand">
 
-    
+
+  
 
 
 <div class="post-block">
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://chenxmjm.github.io.com/2023/07/09/index/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2022%2F0303%2Feeabf41cj00r84nam005od200qo00qog003o003o.jpg&thumbnail=660x2147483647&quality=80&type=jpg">
-      <meta itemprop="name" content="Chen">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Chen's blog">
-      <meta itemprop="description" content="follow my heart">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Chen's blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2023/07/09/index/" class="post-title-link" itemprop="url">Untitled</a>
-        </h2>
-
-        <div class="post-meta-container">
-        
-    <i class="fa fa-thumb-tack"></i>
-    <font color=7D26CD>置顶</font>
-    <span class="post-meta-divider">|</span>
-
-
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2023-07-09 19:48:52" itemprop="dateCreated datePublished" datetime="2023-07-09T19:48:52+08:00">2023-07-09</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-07-16 14:40:52" itemprop="dateModified" datetime="2023-07-16T14:40:52+08:00">2023-07-16</time>
-    </span>
-
-  
-    <span id="/2023/07/09/index/" class="post-meta-item leancloud_visitors" data-flag-title="" title="Views">
-      <span class="post-meta-item-icon">
-        <i class="far fa-eye"></i>
-      </span>
-      <span class="post-meta-item-text">Views: </span>
-      <span class="leancloud-visitors-count"></span>
-    </span>
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Changyan: </span>
-    
-    <a title="" href="/2023/07/09/index/#SOHUCS" itemprop="discussionUrl">
-      <span id="sourceId::f7ebed41273977d6ffdd55fbbc45137b" class="cy_cmt_count" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="title-indexdate-2023-07-09-19-48-52tags-introducecategories-personage"><a href="#title-indexdate-2023-07-09-19-48-52tags-introducecategories-personage" class="headerlink" title="title: indexdate: 2023-07-09 19:48:52tags: introducecategories: personage"></a>title: index<br>date: 2023-07-09 19:48:52<br>tags: introduce<br>categories: personage</h2><ul>
-<li>👋 Hi, I’m chen</li>
-<li>👀 I’m interested in badminton fiction</li>
-<li>🌱 I’m currently learning flight control</li>
-<li>💞️ I’m looking to collaborate on everthing,welcome to connecting</li>
-<li>📫 How to reach me : <a href="mailto:&#50;&#x37;&#56;&#56;&#x32;&#x38;&#x36;&#x38;&#x38;&#x36;&#x40;&#113;&#113;&#46;&#99;&#111;&#x6d;">&#50;&#x37;&#56;&#56;&#x32;&#x38;&#x36;&#x38;&#x38;&#x36;&#x40;&#113;&#113;&#46;&#99;&#111;&#x6d;</a></li>
-</ul>
-<p><strong>近期学习</strong>：</p>
-<ul>
-<li><p><strong>1.ROS的基本了解和三种通信的学习</strong></p>
-</li>
-<li><p><strong>2.stm32通信部分复习</strong></p>
-</li>
-<li><p><strong>3.飞控代码的学习与一些基本的编写</strong></p>
-</li>
-<li><p><strong>4.无人机各传感器与模块的认识</strong></p>
-</li>
-<li><p><strong>5.22年电赛飞行任务的编写</strong></p>
-</li>
-<li><p><strong>6.markdown使用方法的学习</strong></p>
-</li>
-<li><p><strong>7.git的简单学习</strong></p>
-</li>
-<li><p>2023.7.16:</p>
-</li>
-<li><p>1.无人机的通信</p>
-</li>
-<li><p>2.无人机巡线</p>
-</li>
-<li><p>3.c语言的复习</p>
-</li>
-</ul>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://chenxmjm.github.io.com/2023/07/07/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2022%2F0303%2Feeabf41cj00r84nam005od200qo00qog003o003o.jpg&thumbnail=660x2147483647&quality=80&type=jpg">
-      <meta itemprop="name" content="Chen">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Chen's blog">
-      <meta itemprop="description" content="follow my heart">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Chen's blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2023/07/07/hello-world/" class="post-title-link" itemprop="url">Untitled</a>
-        </h2>
-
-        <div class="post-meta-container">
-        
-    <i class="fa fa-thumb-tack"></i>
-    <font color=7D26CD>置顶</font>
-    <span class="post-meta-divider">|</span>
-
-
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2023-07-07 14:25:11" itemprop="dateCreated datePublished" datetime="2023-07-07T14:25:11+08:00">2023-07-07</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-07-10 21:01:26" itemprop="dateModified" datetime="2023-07-10T21:01:26+08:00">2023-07-10</time>
-    </span>
-
-  
-    <span id="/2023/07/07/hello-world/" class="post-meta-item leancloud_visitors" data-flag-title="" title="Views">
-      <span class="post-meta-item-icon">
-        <i class="far fa-eye"></i>
-      </span>
-      <span class="post-meta-item-text">Views: </span>
-      <span class="leancloud-visitors-count"></span>
-    </span>
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Changyan: </span>
-    
-    <a title="" href="/2023/07/07/hello-world/#SOHUCS" itemprop="discussionUrl">
-      <span id="sourceId::03b9af5f43dff9b6d6b28a888274943e" class="cy_cmt_count" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>title: Hello World</p>
-<hr>
-<p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
     <link itemprop="mainEntityOfPage" href="http://chenxmjm.github.io.com/2023/07/16/C/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -507,13 +260,13 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Chen's blog">
+      <meta itemprop="name" content="C++ | Chen's blog">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2023/07/16/C/" class="post-title-link" itemprop="url">C++</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          C++
+        </h1>
 
         <div class="post-meta-container">
         
@@ -537,6 +290,13 @@
       <span class="post-meta-item-text">Views: </span>
       <span class="leancloud-visitors-count"></span>
     </span>
+    <span class="post-meta-item" title="Views" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">Views: </span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
   
   <span class="post-meta-item">
     
@@ -559,8 +319,7 @@
     
     
     
-    <div class="post-body" itemprop="articleBody">
-          <p>[TOC] </p>
+    <div class="post-body" itemprop="articleBody"><p>[TOC] </p>
 <h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><h3 id="基本定义"><a href="#基本定义" class="headerlink" title="基本定义"></a>基本定义</h3><h4 id="1-2-注释"><a href="#1-2-注释" class="headerlink" title="1.2 注释"></a>1.2 注释</h4><p>单行注释   &#x2F; 内容 &#x2F;<br>多行注释  &#x2F;* 内容*&#x2F;</p>
 <h4 id="1-3-变量"><a href="#1-3-变量" class="headerlink" title="1.3 变量"></a>1.3 变量</h4><p><strong>意义</strong>：给一段内存空间取名，方便我们管理内存空间<br><strong>创建语法</strong>：数据类型 变量名 &#x3D; 变量初始值</p>
 <h4 id="1-4-常量"><a href="#1-4-常量" class="headerlink" title="1.4 常量"></a>1.4 常量</h4><h5 id="宏常量（define）"><a href="#宏常量（define）" class="headerlink" title="宏常量（define）"></a>宏常量（define）</h5><p><strong>使用方法</strong>：#define 常量名 常量值</p>
@@ -779,7 +538,6 @@ default:
 <h4 id="8-2-结构体的定义和使用"><a href="#8-2-结构体的定义和使用" class="headerlink" title="8.2 结构体的定义和使用"></a>8.2 结构体的定义和使用</h4><p><strong>语法：</strong> struct 结构体名称 {结构体成员列表}；<br><strong>三种创建结构体变量的方式：</strong><br>1.struct 结构体名 变量名<br>2.struct 结构体名 变量名 &#x3D; {成员1，成员2…..}<br>3.定义结构体时顺便定义变量<br><strong>赋值：</strong><br>通过.来给成员赋值,变量名.成员名<br><strong>注：</strong>  创建结构体时struct不可以省略，创建结构体变量时可以省略</p>
 <h4 id="8-3-结构体数组"><a href="#8-3-结构体数组" class="headerlink" title="8.3 结构体数组"></a>8.3 结构体数组</h4><p><strong>作用：</strong> 将自定义的结构体放入到数组中方便维护<br><strong>语法：</strong> struct 结构体名 数组名[元素个数] &#x3D; </p>
 
-      
     </div>
 
     
@@ -787,288 +545,58 @@ default:
     
 
     <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
+          <div class="reward-container">
+  <div>Buy me a coffee</div>
+  <button>
+    Donate
+  </button>
+  <div class="post-reward">
+      <div>
+        <img src="/images/1000.webp" alt="Chen WeChat Pay">
+        <span>WeChat Pay</span>
+      </div>
+      <div>
+        <img src="/images/1.webp" alt="Chen Alipay">
+        <span>Alipay</span>
+      </div>
+
+  </div>
 </div>
 
+          
 
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://chenxmjm.github.io.com/2023/07/09/git/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2022%2F0303%2Feeabf41cj00r84nam005od200qo00qog003o003o.jpg&thumbnail=660x2147483647&quality=80&type=jpg">
-      <meta itemprop="name" content="Chen">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Chen's blog">
-      <meta itemprop="description" content="follow my heart">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Chen's blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2023/07/09/git/" class="post-title-link" itemprop="url">git</a>
-        </h2>
-
-        <div class="post-meta-container">
-        
-
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-      
-
-      <time title="Created: 2023-07-09 15:38:34 / Modified: 17:52:54" itemprop="dateCreated datePublished" datetime="2023-07-09T15:38:34+08:00">2023-07-09</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/note/" itemprop="url" rel="index"><span itemprop="name">note</span></a>
-        </span>
-    </span>
-
-  
-    <span id="/2023/07/09/git/" class="post-meta-item leancloud_visitors" data-flag-title="git" title="Views">
-      <span class="post-meta-item-icon">
-        <i class="far fa-eye"></i>
-      </span>
-      <span class="post-meta-item-text">Views: </span>
-      <span class="leancloud-visitors-count"></span>
-    </span>
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Changyan: </span>
-    
-    <a title="git" href="/2023/07/09/git/#SOHUCS" itemprop="discussionUrl">
-      <span id="sourceId::e41a751bd77e9b495253d0379bc5f067" class="cy_cmt_count" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="Git-分系统控制版本"><a href="#Git-分系统控制版本" class="headerlink" title="Git-分系统控制版本"></a>Git-分系统控制版本</h2><p>###目录<br>[TOC]</p>
-<h4 id="三个程序的介绍"><a href="#三个程序的介绍" class="headerlink" title="三个程序的介绍"></a>三个程序的介绍</h4><p><strong>git bash</strong>:linux风格的命令行<br><strong>git cmd</strong>:windows风格的命令行<br><strong>git gui</strong>:图形界面的命令行  </p>
-<h4 id="工作区域"><a href="#工作区域" class="headerlink" title="工作区域"></a>工作区域</h4><p><strong>工作区</strong>：平时存放代码的地方<br><strong>暂存区</strong>：临时存放代码的地方<br><strong>本地仓库</strong>：存放各个版本的数据<br><strong>远程仓库</strong>：github,gitee等</p>
-<h4 id="操作命令"><a href="#操作命令" class="headerlink" title="操作命令"></a>操作命令</h4><h5 id="git-init"><a href="#git-init" class="headerlink" title="git init"></a><strong>git init</strong></h5><p><strong>git init</strong>:在工作区创建文件</p>
-<h5 id="git-status"><a href="#git-status" class="headerlink" title="git status"></a><strong>git status</strong></h5><p><strong>git status</strong>:查看所有文件的状态<br>git status [文件名]：查看特定文件状态</p>
-<h5 id="git-add"><a href="#git-add" class="headerlink" title="git add"></a><strong>git add</strong></h5><p><strong>git add .</strong>:提交所有文件到暂存区<br>**git add []**：添加指定文件到暂存区</p>
-<h5 id="git-commit"><a href="#git-commit" class="headerlink" title="git commit"></a><strong>git commit</strong></h5><p><strong>git commit -m “消息内容”</strong>:提交暂存区中的信息到本地仓库<br><strong>git commit -a</strong>:提交修改到仓库区</p>
-<h5 id="git-branch"><a href="#git-branch" class="headerlink" title="git branch"></a><strong>git branch</strong></h5><p><strong>git branch [branch name]</strong>:新建分支，但依然保留在此分支<br><strong>git checkout -b [branch]</strong>:新建分支，并切换<br><strong>git merge [branch]</strong>:合并指定分支到当前分支<br><strong>git branch -d [branch]</strong>:删除指定分支<br><strong>git branch -dr []</strong>:删除远程分支</p>
-<h5 id="git-push"><a href="#git-push" class="headerlink" title="git push"></a><strong>git push</strong></h5><p><strong>git push [remove] [branch]</strong>:上传本地到远程仓库的指定分支</p>
-<h5 id="git-pull"><a href="#git-pull" class="headerlink" title="git pull"></a><strong>git pull</strong></h5><p><strong>git pull</strong>:取回远程仓库的变化，并与本地合并</p>
-<h4 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h4><p><a target="_blank" rel="noopener" href="https://gitee.com/all-about-git#%E9%85%8D%E7%BD%AE">命令与用法介绍</a><br><a target="_blank" rel="noopener" href="https://oschina.gitee.io/learn-git-branching/">命令的练习</a></p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://chenxmjm.github.io.com/2023/07/07/markown/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2022%2F0303%2Feeabf41cj00r84nam005od200qo00qog003o003o.jpg&thumbnail=660x2147483647&quality=80&type=jpg">
-      <meta itemprop="name" content="Chen">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Chen's blog">
-      <meta itemprop="description" content="follow my heart">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Chen's blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2023/07/07/markown/" class="post-title-link" itemprop="url">markdown</a>
-        </h2>
-
-        <div class="post-meta-container">
-        
-
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2023-07-07 21:30:11" itemprop="dateCreated datePublished" datetime="2023-07-07T21:30:11+08:00">2023-07-07</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-07-15 15:41:54" itemprop="dateModified" datetime="2023-07-15T15:41:54+08:00">2023-07-15</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/note/" itemprop="url" rel="index"><span itemprop="name">note</span></a>
-        </span>
-    </span>
-
-  
-    <span id="/2023/07/07/markown/" class="post-meta-item leancloud_visitors" data-flag-title="markdown" title="Views">
-      <span class="post-meta-item-icon">
-        <i class="far fa-eye"></i>
-      </span>
-      <span class="post-meta-item-text">Views: </span>
-      <span class="leancloud-visitors-count"></span>
-    </span>
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Changyan: </span>
-    
-    <a title="markdown" href="/2023/07/07/markown/#SOHUCS" itemprop="discussionUrl">
-      <span id="sourceId::f22087582992fe59c0c7cf894cfe8ec2" class="cy_cmt_count" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h3 id="目录的生成"><a href="#目录的生成" class="headerlink" title="目录的生成"></a>目录的生成</h3><p>[TOC]<br>方法：[]+TOC</p>
-<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><p>正文  俩个空格换行–换行</p>
-<p>空一行，另起一段 <strong>俩个星号加粗</strong> <em>一个星号字斜了</em>  ** ** * *</p>
-<h4 id="自动标序"><a href="#自动标序" class="headerlink" title="自动标序"></a>自动标序</h4><ol>
-<li>标号 .空格</li>
-<li>自动按序标号<ol>
-<li>二级标号<br>ctrl alt v 粘贴图片<br>！[插入文件夹中的图片]</li>
-</ol>
-</li>
-</ol>
-<h4 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h4><p>大于号进入引用</p>
-<blockquote>
-<p>引用的内容 </p>
-</blockquote>
-<p><strong>引用的结束：</strong> 空行或者新启标题结束</p>
-<h4 id="无序列表："><a href="#无序列表：" class="headerlink" title="无序列表："></a>无序列表：</h4><ul>
-<li>abc</li>
-</ul>
+<div class="post-copyright">
 <ul>
-<li>abc<br>使用方法 -或*+空格+内容</li>
+  <li class="post-copyright-author">
+      <strong>Post author:  </strong>Chen
+  </li>
+  <li class="post-copyright-link">
+      <strong>Post link: </strong>
+      <a href="http://chenxmjm.github.io.com/2023/07/16/C/" title="C++">http://chenxmjm.github.io.com/2023/07/16/C/</a>
+  </li>
+  <li class="post-copyright-license">
+      <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> unless stating additionally.
+  </li>
 </ul>
-<h4 id="任务列表："><a href="#任务列表：" class="headerlink" title="任务列表："></a>任务列表：</h4><ul>
-<li><input checked="" disabled="" type="checkbox"> 吃饭</li>
-<li><input disabled="" type="checkbox"> 睡觉<br>使用方法 -空格[空格]空格+内容 方框中空格用x替代可勾选</li>
-</ul>
-<h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><p>$$<br>ctrl m 连按俩次跳出公式输入<br>$$</p>
-<h4 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h4><table>
-<thead>
-<tr>
-<th>小明</th>
-<th>大明</th>
-<th>姚明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1.3</td>
-<td>2.4</td>
-<td>3.4</td>
-</tr>
-<tr>
-<td>1</td>
-<td>24</td>
-<td>3</td>
-</tr>
-<tr>
-<td>表格的使用</td>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
-<p>—-|：—|—- 左对齐<br> —-|—：|—-右对齐<br>:—:中间对齐<br>shift + alt + f markdown 表格格式化 </p>
-<h4 id="图片插入"><a href="#图片插入" class="headerlink" title="图片插入"></a>图片插入</h4><p>使用方法：！+[]+()  加图片名称<br><img src="/huahua.jpeg"></p>
-<h4 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h4><p>这是一个[链接]<a target="_blank" rel="noopener" href="https://www.bilibili.com/">https://www.bilibili.com/</a><br>使用方法：介绍+[链接]+c过来的链接<br><a href="baidu.com">百度</a><br><a href="baidu.com%22%E6%A0%87%E9%A2%98%22">百度</a><br>使用方法：[链接名称]（链接”标题”）</p>
-<h5 id="链接标题代码块的加入"><a href="#链接标题代码块的加入" class="headerlink" title="链接标题代码块的加入"></a>链接标题<a href="#%E4%BB%A3%E7%A0%81%E5%9D%97%E7%9A%84%E5%8A%A0%E5%85%A5">代码块的加入</a></h5><p>使用方法：[]+(井号)均填入标题名</p>
-<h5 id="ULR"><a href="#ULR" class="headerlink" title="ULR:"></a>ULR:</h5><p><a target="_blank" rel="noopener" href="https://baidu.com/">https://baidu.com</a></p>
-<h4 id="代码块的加入"><a href="#代码块的加入" class="headerlink" title="代码块的加入"></a>代码块的加入</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> s=<span class="string">&quot;javaScript syntax highlighting&quot;</span>;</span><br><span class="line"><span class="title function_">alter</span>(s);</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h2 id="ctrl-k-松开加z进入zen-mode俩下esc退出zen-mode-横线分割"><a href="#ctrl-k-松开加z进入zen-mode俩下esc退出zen-mode-横线分割" class="headerlink" title="ctrl+k 松开加z进入zen mode俩下esc退出zen mode#### 横线分割"></a>ctrl+k 松开加z进入zen mode<br>俩下esc退出zen mode<br>#### 横线分割</h2><p>使用方法三个-</p>
-<h4 id="表情"><a href="#表情" class="headerlink" title="表情"></a>表情</h4><p>:s<br>使用方法：：+国际通用表情代码<br><a target="_blank" rel="noopener" href="https://unicode.org/emoji/charts/full-emoji-list.html">国际通用表情代码链接</a></p>
-<h4 id="角标与下标"><a href="#角标与下标" class="headerlink" title="角标与下标"></a>角标与下标</h4><p>H<del>2</del><br> x^2^<br>使用方法：下标~在数字俩边各一个，角标^在数字俩边各一个</p>
-<h4 id="下划线"><a href="#下划线" class="headerlink" title="下划线"></a>下划线</h4><p><u>下划线</u><br>使用方法：&lt;+u+&gt;+需要下划线的内容<br></u>下划线结束</p>
-<h4 id="高亮"><a href="#高亮" class="headerlink" title="高亮"></a>高亮</h4><p>&#x3D;&#x3D;高亮&#x3D;&#x3D;<br>使用方法：&#x3D;&#x3D;+内容+俩个&#x3D;</p>
+</div>
 
-      
-    </div>
 
-    
-    
-    
+        
+  <div class="social-like a2a_kit a2a_kit_size_32 a2a_default_style">
+    <a class="a2a_dd" target="_blank" rel="noopener" href="https://www.addtoany.com/share"></a>
+      <a class="a2a_button_facebook"></a>
+      <a class="a2a_button_twitter"></a>
+  </div>
 
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2023/07/09/index/" rel="prev" title="">
+                  <i class="fa fa-chevron-left"></i> 
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
     </footer>
   </article>
 </div>
@@ -1077,6 +605,8 @@ default:
 
 
 
+
+    <div class="comments" id="SOHUCS" sid="6083287127f0bd9ff9fa6f89664395c4"></div>
 </div>
   </main>
 
