@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>git</title>
+    <url>/2023/07/09/git/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Git-分系统控制版本"><a href="#Git-分系统控制版本" class="headerlink" title="Git-分系统控制版本"></a>Git-分系统控制版本</h2><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>git是一个分系统控制版本，可以方便团队合作开发时的代码管理<span id="more"></span></p>
+<h4 id="三个程序的介绍"><a href="#三个程序的介绍" class="headerlink" title="三个程序的介绍"></a>三个程序的介绍</h4><p><strong>git bash</strong>:linux风格的命令行<br><strong>git cmd</strong>:windows风格的命令行<br><strong>git gui</strong>:图形界面的命令行  </p>
+<h4 id="工作区域"><a href="#工作区域" class="headerlink" title="工作区域"></a>工作区域</h4><p><strong>工作区</strong>：平时存放代码的地方<br><strong>暂存区</strong>：临时存放代码的地方<br><strong>本地仓库</strong>：存放各个版本的数据<br><strong>远程仓库</strong>：github,gitee等</p>
+<h4 id="操作命令"><a href="#操作命令" class="headerlink" title="操作命令"></a>操作命令</h4><h5 id="git-init"><a href="#git-init" class="headerlink" title="git init"></a><strong>git init</strong></h5><p><strong>git init</strong>:在工作区创建文件</p>
+<h5 id="git-status"><a href="#git-status" class="headerlink" title="git status"></a><strong>git status</strong></h5><p><strong>git status</strong>:查看所有文件的状态<br>git status [文件名]：查看特定文件状态</p>
+<h5 id="git-add"><a href="#git-add" class="headerlink" title="git add"></a><strong>git add</strong></h5><p><strong>git add .</strong>:提交所有文件到暂存区<br>**git add []**：添加指定文件到暂存区</p>
+<h5 id="git-commit"><a href="#git-commit" class="headerlink" title="git commit"></a><strong>git commit</strong></h5><p><strong>git commit -m “消息内容”</strong>:提交暂存区中的信息到本地仓库<br><strong>git commit -a</strong>:提交修改到仓库区</p>
+<h5 id="git-branch"><a href="#git-branch" class="headerlink" title="git branch"></a><strong>git branch</strong></h5><p><strong>git branch [branch name]</strong>:新建分支，但依然保留在此分支<br><strong>git checkout -b [branch]</strong>:新建分支，并切换<br><strong>git merge [branch]</strong>:合并指定分支到当前分支<br><strong>git branch -d [branch]</strong>:删除指定分支<br><strong>git branch -dr []</strong>:删除远程分支</p>
+<h5 id="git-push"><a href="#git-push" class="headerlink" title="git push"></a><strong>git push</strong></h5><p><strong>git push [remove] [branch]</strong>:上传本地到远程仓库的指定分支</p>
+<h5 id="git-pull"><a href="#git-pull" class="headerlink" title="git pull"></a><strong>git pull</strong></h5><p><strong>git pull</strong>:取回远程仓库的变化，并与本地合并</p>
+<h4 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h4><p><a href="https://gitee.com/all-about-git#%E9%85%8D%E7%BD%AE">命令与用法介绍</a><br><a href="https://oschina.gitee.io/learn-git-branching/">命令的练习</a></p>
+]]></content>
+      <categories>
+        <category>note</category>
+      </categories>
+      <tags>
+        <tag>分系统控制版本</tag>
+      </tags>
+  </entry>
+  <entry>
     <title></title>
     <url>/2023/07/09/index/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="title-indexdate-2023-07-09-19-48-52tags-introducecategories-personage"><a href="#title-indexdate-2023-07-09-19-48-52tags-introducecategories-personage" class="headerlink" title="title: indexdate: 2023-07-09 19:48:52tags: introducecategories: personage"></a>title: index<br>date: 2023-07-09 19:48:52<br>tags: introduce<br>categories: personage</h2><ul>
@@ -37,6 +59,78 @@
 </ul>
 <p>-2023.7.21<br>C++第二阶段学习</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>markdown</title>
+    <url>/2023/07/07/markown/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>markdown是一种轻量化语言，blog文档建立默认md格式，本文记录了一些markdown的基本使用方法，方便之后blog笔记的书写<br>方法：[]+TOC</p>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><p>正文  俩个空格换行–换行</p>
+<p>空一行，另起一段 <strong>俩个星号加粗</strong> <em>一个星号字斜了</em>  ** ** * *</p>
+<h4 id="自动标序"><a href="#自动标序" class="headerlink" title="自动标序"></a>自动标序</h4><ol>
+<li>标号 .空格</li>
+<li>自动按序标号<ol>
+<li>二级标号<br>ctrl alt v 粘贴图片<br>！[插入文件夹中的图片]</li>
+</ol>
+</li>
+</ol>
+<h4 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h4><p>大于号进入引用</p>
+<blockquote>
+<p>引用的内容 </p>
+</blockquote>
+<p><strong>引用的结束：</strong> 空行或者新启标题结束</p>
+<h4 id="无序列表："><a href="#无序列表：" class="headerlink" title="无序列表："></a>无序列表：</h4><ul>
+<li>abc</li>
+</ul>
+<ul>
+<li>abc<br>使用方法 -或*+空格+内容</li>
+</ul>
+<h4 id="任务列表："><a href="#任务列表：" class="headerlink" title="任务列表："></a>任务列表：</h4><ul>
+<li><input checked="" disabled="" type="checkbox"> 吃饭</li>
+<li><input disabled="" type="checkbox"> 睡觉<br>使用方法 -空格[空格]空格+内容 方框中空格用x替代可勾选</li>
+</ul>
+<h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><p>$$<br>ctrl m 连按俩次跳出公式输入<br>$$</p>
+<h4 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h4><table>
+<thead>
+<tr>
+<th>小明</th>
+<th>大明</th>
+<th>姚明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1.3</td>
+<td>2.4</td>
+<td>3.4</td>
+</tr>
+<tr>
+<td>1</td>
+<td>24</td>
+<td>3</td>
+</tr>
+<tr>
+<td>表格的使用</td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<p>—-|：—|—- 左对齐<br> —-|—：|—-右对齐<br>:—:中间对齐<br>shift + alt + f markdown 表格格式化 </p>
+<h4 id="图片插入"><a href="#图片插入" class="headerlink" title="图片插入"></a>图片插入</h4><p>使用方法：！+[]+()  加图片名称<br><img src="/huahua.jpeg"></p>
+<h4 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h4><p>这是一个[链接]<a href="https://www.bilibili.com/">https://www.bilibili.com/</a><br>使用方法：介绍+[链接]+c过来的链接<br><a href="baidu.com">百度</a><br><a href="baidu.com%22%E6%A0%87%E9%A2%98%22">百度</a><br>使用方法：[链接名称]（链接”标题”）</p>
+<h5 id="链接标题代码块的加入"><a href="#链接标题代码块的加入" class="headerlink" title="链接标题代码块的加入"></a>链接标题<a href="#%E4%BB%A3%E7%A0%81%E5%9D%97%E7%9A%84%E5%8A%A0%E5%85%A5">代码块的加入</a></h5><p>使用方法：[]+(井号)均填入标题名</p>
+<h5 id="ULR"><a href="#ULR" class="headerlink" title="ULR:"></a>ULR:</h5><p><a href="https://baidu.com/">https://baidu.com</a></p>
+<h4 id="代码块的加入"><a href="#代码块的加入" class="headerlink" title="代码块的加入"></a>代码块的加入</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> s=<span class="string">&quot;javaScript syntax highlighting&quot;</span>;</span><br><span class="line"><span class="title function_">alter</span>(s);</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h2 id="ctrl-k-松开加z进入zen-mode俩下esc退出zen-mode-横线分割"><a href="#ctrl-k-松开加z进入zen-mode俩下esc退出zen-mode-横线分割" class="headerlink" title="ctrl+k 松开加z进入zen mode俩下esc退出zen mode#### 横线分割"></a>ctrl+k 松开加z进入zen mode<br>俩下esc退出zen mode<br>#### 横线分割</h2><p>使用方法三个-</p>
+<h4 id="表情"><a href="#表情" class="headerlink" title="表情"></a>表情</h4><p>:s<br>使用方法：：+国际通用表情代码<br><a href="https://unicode.org/emoji/charts/full-emoji-list.html">国际通用表情代码链接</a></p>
+<h4 id="角标与下标"><a href="#角标与下标" class="headerlink" title="角标与下标"></a>角标与下标</h4><p>H<del>2</del><br> x^2^<br>使用方法：下标~在数字俩边各一个，角标^在数字俩边各一个</p>
+<h4 id="下划线"><a href="#下划线" class="headerlink" title="下划线"></a>下划线</h4><p><u>下划线</u><br>使用方法：&lt;+u+&gt;+需要下划线的内容<br></u>下划线结束</p>
+<h4 id="高亮"><a href="#高亮" class="headerlink" title="高亮"></a>高亮</h4><p>&#x3D;&#x3D;高亮&#x3D;&#x3D;<br>使用方法：&#x3D;&#x3D;+内容+俩个&#x3D;</p>
+]]></content>
+      <categories>
+        <category>note</category>
+      </categories>
+      <tags>
+        <tag>轻量化语言</tag>
+      </tags>
   </entry>
   <entry>
     <title></title>
@@ -285,100 +379,6 @@ default:
       </categories>
       <tags>
         <tag>note C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>git</title>
-    <url>/2023/07/09/git/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Git-分系统控制版本"><a href="#Git-分系统控制版本" class="headerlink" title="Git-分系统控制版本"></a>Git-分系统控制版本</h2><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>git是一个分系统控制版本，可以方便团队合作开发时的代码管理<span id="more"></span></p>
-<h4 id="三个程序的介绍"><a href="#三个程序的介绍" class="headerlink" title="三个程序的介绍"></a>三个程序的介绍</h4><p><strong>git bash</strong>:linux风格的命令行<br><strong>git cmd</strong>:windows风格的命令行<br><strong>git gui</strong>:图形界面的命令行  </p>
-<h4 id="工作区域"><a href="#工作区域" class="headerlink" title="工作区域"></a>工作区域</h4><p><strong>工作区</strong>：平时存放代码的地方<br><strong>暂存区</strong>：临时存放代码的地方<br><strong>本地仓库</strong>：存放各个版本的数据<br><strong>远程仓库</strong>：github,gitee等</p>
-<h4 id="操作命令"><a href="#操作命令" class="headerlink" title="操作命令"></a>操作命令</h4><h5 id="git-init"><a href="#git-init" class="headerlink" title="git init"></a><strong>git init</strong></h5><p><strong>git init</strong>:在工作区创建文件</p>
-<h5 id="git-status"><a href="#git-status" class="headerlink" title="git status"></a><strong>git status</strong></h5><p><strong>git status</strong>:查看所有文件的状态<br>git status [文件名]：查看特定文件状态</p>
-<h5 id="git-add"><a href="#git-add" class="headerlink" title="git add"></a><strong>git add</strong></h5><p><strong>git add .</strong>:提交所有文件到暂存区<br>**git add []**：添加指定文件到暂存区</p>
-<h5 id="git-commit"><a href="#git-commit" class="headerlink" title="git commit"></a><strong>git commit</strong></h5><p><strong>git commit -m “消息内容”</strong>:提交暂存区中的信息到本地仓库<br><strong>git commit -a</strong>:提交修改到仓库区</p>
-<h5 id="git-branch"><a href="#git-branch" class="headerlink" title="git branch"></a><strong>git branch</strong></h5><p><strong>git branch [branch name]</strong>:新建分支，但依然保留在此分支<br><strong>git checkout -b [branch]</strong>:新建分支，并切换<br><strong>git merge [branch]</strong>:合并指定分支到当前分支<br><strong>git branch -d [branch]</strong>:删除指定分支<br><strong>git branch -dr []</strong>:删除远程分支</p>
-<h5 id="git-push"><a href="#git-push" class="headerlink" title="git push"></a><strong>git push</strong></h5><p><strong>git push [remove] [branch]</strong>:上传本地到远程仓库的指定分支</p>
-<h5 id="git-pull"><a href="#git-pull" class="headerlink" title="git pull"></a><strong>git pull</strong></h5><p><strong>git pull</strong>:取回远程仓库的变化，并与本地合并</p>
-<h4 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h4><p><a href="https://gitee.com/all-about-git#%E9%85%8D%E7%BD%AE">命令与用法介绍</a><br><a href="https://oschina.gitee.io/learn-git-branching/">命令的练习</a></p>
-]]></content>
-      <categories>
-        <category>note</category>
-      </categories>
-      <tags>
-        <tag>分系统控制版本</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>markdown</title>
-    <url>/2023/07/07/markown/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>markdown是一种轻量化语言，blog文档建立默认md格式，本文记录了一些markdown的基本使用方法，方便之后blog笔记的书写<br>方法：[]+TOC</p>
-<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><p>正文  俩个空格换行–换行</p>
-<p>空一行，另起一段 <strong>俩个星号加粗</strong> <em>一个星号字斜了</em>  ** ** * *</p>
-<h4 id="自动标序"><a href="#自动标序" class="headerlink" title="自动标序"></a>自动标序</h4><ol>
-<li>标号 .空格</li>
-<li>自动按序标号<ol>
-<li>二级标号<br>ctrl alt v 粘贴图片<br>！[插入文件夹中的图片]</li>
-</ol>
-</li>
-</ol>
-<h4 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h4><p>大于号进入引用</p>
-<blockquote>
-<p>引用的内容 </p>
-</blockquote>
-<p><strong>引用的结束：</strong> 空行或者新启标题结束</p>
-<h4 id="无序列表："><a href="#无序列表：" class="headerlink" title="无序列表："></a>无序列表：</h4><ul>
-<li>abc</li>
-</ul>
-<ul>
-<li>abc<br>使用方法 -或*+空格+内容</li>
-</ul>
-<h4 id="任务列表："><a href="#任务列表：" class="headerlink" title="任务列表："></a>任务列表：</h4><ul>
-<li><input checked="" disabled="" type="checkbox"> 吃饭</li>
-<li><input disabled="" type="checkbox"> 睡觉<br>使用方法 -空格[空格]空格+内容 方框中空格用x替代可勾选</li>
-</ul>
-<h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><p>$$<br>ctrl m 连按俩次跳出公式输入<br>$$</p>
-<h4 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h4><table>
-<thead>
-<tr>
-<th>小明</th>
-<th>大明</th>
-<th>姚明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1.3</td>
-<td>2.4</td>
-<td>3.4</td>
-</tr>
-<tr>
-<td>1</td>
-<td>24</td>
-<td>3</td>
-</tr>
-<tr>
-<td>表格的使用</td>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
-<p>—-|：—|—- 左对齐<br> —-|—：|—-右对齐<br>:—:中间对齐<br>shift + alt + f markdown 表格格式化 </p>
-<h4 id="图片插入"><a href="#图片插入" class="headerlink" title="图片插入"></a>图片插入</h4><p>使用方法：！+[]+()  加图片名称<br><img src="/huahua.jpeg"></p>
-<h4 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h4><p>这是一个[链接]<a href="https://www.bilibili.com/">https://www.bilibili.com/</a><br>使用方法：介绍+[链接]+c过来的链接<br><a href="baidu.com">百度</a><br><a href="baidu.com%22%E6%A0%87%E9%A2%98%22">百度</a><br>使用方法：[链接名称]（链接”标题”）</p>
-<h5 id="链接标题代码块的加入"><a href="#链接标题代码块的加入" class="headerlink" title="链接标题代码块的加入"></a>链接标题<a href="#%E4%BB%A3%E7%A0%81%E5%9D%97%E7%9A%84%E5%8A%A0%E5%85%A5">代码块的加入</a></h5><p>使用方法：[]+(井号)均填入标题名</p>
-<h5 id="ULR"><a href="#ULR" class="headerlink" title="ULR:"></a>ULR:</h5><p><a href="https://baidu.com/">https://baidu.com</a></p>
-<h4 id="代码块的加入"><a href="#代码块的加入" class="headerlink" title="代码块的加入"></a>代码块的加入</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> s=<span class="string">&quot;javaScript syntax highlighting&quot;</span>;</span><br><span class="line"><span class="title function_">alter</span>(s);</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h2 id="ctrl-k-松开加z进入zen-mode俩下esc退出zen-mode-横线分割"><a href="#ctrl-k-松开加z进入zen-mode俩下esc退出zen-mode-横线分割" class="headerlink" title="ctrl+k 松开加z进入zen mode俩下esc退出zen mode#### 横线分割"></a>ctrl+k 松开加z进入zen mode<br>俩下esc退出zen mode<br>#### 横线分割</h2><p>使用方法三个-</p>
-<h4 id="表情"><a href="#表情" class="headerlink" title="表情"></a>表情</h4><p>:s<br>使用方法：：+国际通用表情代码<br><a href="https://unicode.org/emoji/charts/full-emoji-list.html">国际通用表情代码链接</a></p>
-<h4 id="角标与下标"><a href="#角标与下标" class="headerlink" title="角标与下标"></a>角标与下标</h4><p>H<del>2</del><br> x^2^<br>使用方法：下标~在数字俩边各一个，角标^在数字俩边各一个</p>
-<h4 id="下划线"><a href="#下划线" class="headerlink" title="下划线"></a>下划线</h4><p><u>下划线</u><br>使用方法：&lt;+u+&gt;+需要下划线的内容<br></u>下划线结束</p>
-<h4 id="高亮"><a href="#高亮" class="headerlink" title="高亮"></a>高亮</h4><p>&#x3D;&#x3D;高亮&#x3D;&#x3D;<br>使用方法：&#x3D;&#x3D;+内容+俩个&#x3D;</p>
-]]></content>
-      <categories>
-        <category>note</category>
-      </categories>
-      <tags>
-        <tag>轻量化语言</tag>
       </tags>
   </entry>
 </search>
