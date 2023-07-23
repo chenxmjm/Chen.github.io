@@ -312,7 +312,7 @@ default:
   <entry>
     <title>markdown</title>
     <url>/2023/07/07/markown/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>markdown是一种轻量化语言，blog文档建立默认md格式，本文记录了一些markdown的基本使用方法，方便之后blog笔记的书写<br>方法：[]+TOC</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>markdown是一种轻量化语言，blog文档建立默认md格式，本文记录了一些markdown的基本使用方法，方便之后blog笔记的书写 <span id="more"></span><br>方法：[]+TOC</p>
 <h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><p>正文  俩个空格换行–换行</p>
 <p>空一行，另起一段 <strong>俩个星号加粗</strong> <em>一个星号字斜了</em>  ** ** * *</p>
 <h4 id="自动标序"><a href="#自动标序" class="headerlink" title="自动标序"></a>自动标序</h4><ol>
