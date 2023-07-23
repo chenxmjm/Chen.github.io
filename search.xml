@@ -290,7 +290,7 @@ default:
   <entry>
     <title>git</title>
     <url>/2023/07/09/git/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Git-分系统控制版本"><a href="#Git-分系统控制版本" class="headerlink" title="Git-分系统控制版本"></a>Git-分系统控制版本</h2><p>###目录<br>[TOC]</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Git-分系统控制版本"><a href="#Git-分系统控制版本" class="headerlink" title="Git-分系统控制版本"></a>Git-分系统控制版本</h2><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>git是一个分系统控制版本，可以方便团队合作开发时的代码管理<span id="more"></span></p>
 <h4 id="三个程序的介绍"><a href="#三个程序的介绍" class="headerlink" title="三个程序的介绍"></a>三个程序的介绍</h4><p><strong>git bash</strong>:linux风格的命令行<br><strong>git cmd</strong>:windows风格的命令行<br><strong>git gui</strong>:图形界面的命令行  </p>
 <h4 id="工作区域"><a href="#工作区域" class="headerlink" title="工作区域"></a>工作区域</h4><p><strong>工作区</strong>：平时存放代码的地方<br><strong>暂存区</strong>：临时存放代码的地方<br><strong>本地仓库</strong>：存放各个版本的数据<br><strong>远程仓库</strong>：github,gitee等</p>
 <h4 id="操作命令"><a href="#操作命令" class="headerlink" title="操作命令"></a>操作命令</h4><h5 id="git-init"><a href="#git-init" class="headerlink" title="git init"></a><strong>git init</strong></h5><p><strong>git init</strong>:在工作区创建文件</p>
@@ -312,7 +312,7 @@ default:
   <entry>
     <title>markdown</title>
     <url>/2023/07/07/markown/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="目录的生成"><a href="#目录的生成" class="headerlink" title="目录的生成"></a>目录的生成</h3><p>[TOC]<br>方法：[]+TOC</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>markdown是一种轻量化语言，blog文档建立默认md格式，本文记录了一些markdown的基本使用方法，方便之后blog笔记的书写<br>方法：[]+TOC</p>
 <h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><p>正文  俩个空格换行–换行</p>
 <p>空一行，另起一段 <strong>俩个星号加粗</strong> <em>一个星号字斜了</em>  ** ** * *</p>
 <h4 id="自动标序"><a href="#自动标序" class="headerlink" title="自动标序"></a>自动标序</h4><ol>
