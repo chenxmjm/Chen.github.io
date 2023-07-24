@@ -41,17 +41,14 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"chenxmjm.github.io.com","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.17.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="单片机认识单片机:单片微型计算机，是一种集成电路芯片下图为单片机各部分与电脑的对应关系 123456789graph TBA(单片机)--&gt;b[cpu]A--&gt;C[SRAM]A--&gt;D[FLASH]A--&gt;E[外设]b--&gt;F[CPU]C--&gt;G[内存]D--&gt;H[硬盘]E--&gt;J[主板] 注： RAM分为DRAM和SRAM，DRAM为动态存储，需要">
-<meta property="og:type" content="article">
+    <meta property="og:type" content="article">
 <meta property="og:title" content="单片机简介">
 <meta property="og:url" content="http://chenxmjm.github.io.com/2023/07/24/%E5%8D%95%E7%89%87%E6%9C%BA%E7%AE%80%E4%BB%8B/index.html">
 <meta property="og:site_name" content="Chen&#39;s blog">
-<meta property="og:description" content="单片机认识单片机:单片微型计算机，是一种集成电路芯片下图为单片机各部分与电脑的对应关系 123456789graph TBA(单片机)--&gt;b[cpu]A--&gt;C[SRAM]A--&gt;D[FLASH]A--&gt;E[外设]b--&gt;F[CPU]C--&gt;G[内存]D--&gt;H[硬盘]E--&gt;J[主板] 注： RAM分为DRAM和SRAM，DRAM为动态存储，需要">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2023-07-24T06:21:07.000Z">
-<meta property="article:modified_time" content="2023-07-24T07:57:50.733Z">
+<meta property="article:published_time" content="2023-07-24T06:12:02.000Z">
+<meta property="article:modified_time" content="2023-07-24T06:12:02.521Z">
 <meta property="article:author" content="Chen">
-<meta property="article:tag" content="单片机 note">
 <meta name="twitter:card" content="summary">
 
 
@@ -148,7 +145,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+    <div class="sidebar-inner sidebar-overview-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           Table of Contents
@@ -161,7 +158,6 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8D%95%E7%89%87%E6%9C%BA%E8%AE%A4%E8%AF%86"><span class="nav-number">1.</span> <span class="nav-text">单片机认识</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8D%95%E7%89%87%E6%9C%BA%E7%9A%84%E7%89%B9%E7%82%B9"><span class="nav-number">1.1.</span> <span class="nav-text">单片机的特点</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#cortex%E5%86%85%E6%A0%B8%E5%88%86%E7%B1%BB%E5%8F%8A%E7%89%B9%E5%BE%81"><span class="nav-number">1.2.</span> <span class="nav-text">cortex内核分类及特征</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#stm32"><span class="nav-number">2.</span> <span class="nav-text">stm32</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#stm32%E8%AE%A4%E8%AF%86"><span class="nav-number">2.1.</span> <span class="nav-text">stm32认识</span></a></li></ol></li></ol></div>
 
           
 
@@ -213,7 +209,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -293,9 +289,8 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">Posted on</span>
-      
 
-      <time title="Created: 2023-07-24 14:21:07 / Modified: 15:57:50" itemprop="dateCreated datePublished" datetime="2023-07-24T14:21:07+08:00">2023-07-24</time>
+      <time title="Created: 2023-07-24 14:12:02" itemprop="dateCreated datePublished" datetime="2023-07-24T14:12:02+08:00">2023-07-24</time>
     </span>
 
   
@@ -335,17 +330,7 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><h3 id="单片机认识"><a href="#单片机认识" class="headerlink" title="单片机认识"></a>单片机认识</h3><p><strong>单片机:单片微型计算机，是一种集成电路芯片</strong><br><strong>下图为单片机各部分与电脑的对应关系</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">graph TB</span><br><span class="line">A(单片机)--&gt;b[cpu]</span><br><span class="line">A--&gt;C[SRAM]</span><br><span class="line">A--&gt;D[FLASH]</span><br><span class="line">A--&gt;E[外设]</span><br><span class="line">b--&gt;F[CPU]</span><br><span class="line">C--&gt;G[内存]</span><br><span class="line">D--&gt;H[硬盘]</span><br><span class="line">E--&gt;J[主板]</span><br></pre></td></tr></table></figure>
-<p><strong>注：</strong> RAM分为DRAM和SRAM，DRAM为动态存储，需要每隔一段时间刷新一次，否则数据将丢失，SRAM为静态储存，不掉电则数据不会丢失，掉电二者数据均丢失。</p>
-<h4 id="单片机的特点"><a href="#单片机的特点" class="headerlink" title="单片机的特点"></a>单片机的特点</h4><p>1.体积小<br>2.功耗小<br>3.集成度高<br>4.使用方便<br>5.拓展灵活</p>
-<h4 id="cortex内核分类及特征"><a href="#cortex内核分类及特征" class="headerlink" title="cortex内核分类及特征"></a>cortex内核分类及特征</h4><p>cortex-a：高性能，多用于手机，电脑，平板等<br>cortex-r: 高实时性，多用于军工，汽车电子等<br>cortex-m；低功耗，多用于电子，传感器，家用电器等</p>
-<h3 id="stm32"><a href="#stm32" class="headerlink" title="stm32"></a>stm32</h3><h4 id="stm32认识"><a href="#stm32认识" class="headerlink" title="stm32认识"></a>stm32认识</h4><p>stm32:<br>st：意法公司<br>m：mcu&#x2F;mpu<br>32：32位<br>资料查询：</p>
-<ul>
-<li><a target="_blank" rel="noopener" href="https://www.stmcu.org.cn/">中文社区网</a></li>
-<li><a target="_blank" rel="noopener" href="https://ww.st.com/">st官网</a></li>
-</ul>
-
+    <div class="post-body" itemprop="articleBody">
     </div>
 
     
@@ -388,9 +373,6 @@
 </ul>
 </div>
 
-          <div class="post-tags">
-              <a href="/tags/%E5%8D%95%E7%89%87%E6%9C%BA-note/" rel="tag"><i class="fa fa-tag"></i> 单片机 note</a>
-          </div>
 
         
   <div class="social-like a2a_kit a2a_kit_size_32 a2a_default_style">
@@ -454,6 +436,7 @@
   </div>
 
 <span id="timeDate" title="网站运行时间">建站时间：2023/7/8
+
 
     </div>
   </footer>
