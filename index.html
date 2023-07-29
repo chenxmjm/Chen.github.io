@@ -198,18 +198,18 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-count">7</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">categories</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-count">5</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -510,6 +510,119 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://chenxmjm.github.io.com/2023/07/29/stm32%E8%AE%A4%E8%AF%86/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2022%2F0303%2Feeabf41cj00r84nam005od200qo00qog003o003o.jpg&thumbnail=660x2147483647&quality=80&type=jpg">
+      <meta itemprop="name" content="Chen">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Chen's blog">
+      <meta itemprop="description" content="follow my heart">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | Chen's blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2023/07/29/stm32%E8%AE%A4%E8%AF%86/" class="post-title-link" itemprop="url">stm32认识</a>
+        </h2>
+
+        <div class="post-meta-container">
+        
+
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+      
+
+      <time title="Created: 2023-07-29 16:27:54 / Modified: 21:54:55" itemprop="dateCreated datePublished" datetime="2023-07-29T16:27:54+08:00">2023-07-29</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/stm32/" itemprop="url" rel="index"><span itemprop="name">stm32</span></a>
+        </span>
+    </span>
+
+  
+    <span id="/2023/07/29/stm32%E8%AE%A4%E8%AF%86/" class="post-meta-item leancloud_visitors" data-flag-title="stm32认识" title="Views">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">Views: </span>
+      <span class="leancloud-visitors-count"></span>
+    </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Changyan: </span>
+    
+    <a title="stm32认识" href="/2023/07/29/stm32%E8%AE%A4%E8%AF%86/#SOHUCS" itemprop="discussionUrl">
+      <span id="sourceId::9d5190fa4ca91fa92981aa962a507cac" class="cy_cmt_count" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h4 id="stm32寻址范围"><a href="#stm32寻址范围" class="headerlink" title="stm32寻址范围"></a>stm32寻址范围</h4><p>32位的单片机可以有32根地址线，每根有导通和不导通俩种状态<br>32地址线可以有2^32^种地址编号，因此寻址地址大小为2^32^&#x3D;4G（字节）<br>寻址范围：0x00000000~0xFFFFFFFF</p>
+<h4 id="存储器映射"><a href="#存储器映射" class="headerlink" title="存储器映射"></a>存储器映射</h4><p>存储器（SRAM,FLASH）指可以存储数据的设备，买回来的存储器是没有地址的，给存储器分配地址的过程就叫存储器映射</p>
+<h4 id="寄存器"><a href="#寄存器" class="headerlink" title="寄存器"></a>寄存器</h4><h5 id="寄存器基础知识"><a href="#寄存器基础知识" class="headerlink" title="寄存器基础知识"></a>寄存器基础知识</h5><p>寄存器是单片机内部的一种特殊内存，可以对单片机各个功能的控制</p>
+<h5 id="寄存器映射"><a href="#寄存器映射" class="headerlink" title="寄存器映射"></a>寄存器映射</h5><p>寄存器是一种特殊的存储器，给寄存器地址命名的过程就是寄存器映射<br>直接操作寄存器地址：</p>
+<blockquote>
+<p><em>(unsigned int</em>)(0x4001080c) &#x3D; 0xffff;</p>
+</blockquote>
+<p>寄存器映射后再进行操作：</p>
+<blockquote>
+<p>#define GPIOA_ODR <em>(unsigned int</em>)(0x4001080c)<br>GPIOA_ODR &#x3D; 0XFFFF;</p>
+</blockquote>
+<h5 id="寄存器地址计算"><a href="#寄存器地址计算" class="headerlink" title="寄存器地址计算"></a>寄存器地址计算</h5><p>寄存器地址分三类：<br>1.总线基地址（BUS_BASE_ADDR）<br>2.外设基于总线基地址的偏移量（PERIPH_OFFSET）<br>3.寄存器相对于外设的偏移量<br>APB1总线地址也叫外设基地址</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
     <link itemprop="mainEntityOfPage" href="http://chenxmjm.github.io.com/2023/07/24/%E5%8D%95%E7%89%87%E6%9C%BA%E7%AE%80%E4%BB%8B/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -540,9 +653,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">Posted on</span>
-      
 
-      <time title="Created: 2023-07-24 14:21:07 / Modified: 16:28:19" itemprop="dateCreated datePublished" datetime="2023-07-24T14:21:07+08:00">2023-07-24</time>
+      <time title="Created: 2023-07-24 14:21:07" itemprop="dateCreated datePublished" datetime="2023-07-24T14:21:07+08:00">2023-07-24</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2023-07-25 16:37:46" itemprop="dateModified" datetime="2023-07-25T16:37:46+08:00">2023-07-25</time>
     </span>
 
   

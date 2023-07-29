@@ -59,6 +59,29 @@
 ]]></content>
   </entry>
   <entry>
+    <title>stm32认识</title>
+    <url>/2023/07/29/stm32%E8%AE%A4%E8%AF%86/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h4 id="stm32寻址范围"><a href="#stm32寻址范围" class="headerlink" title="stm32寻址范围"></a>stm32寻址范围</h4><p>32位的单片机可以有32根地址线，每根有导通和不导通俩种状态<br>32地址线可以有2^32^种地址编号，因此寻址地址大小为2^32^&#x3D;4G（字节）<br>寻址范围：0x00000000~0xFFFFFFFF</p>
+<h4 id="存储器映射"><a href="#存储器映射" class="headerlink" title="存储器映射"></a>存储器映射</h4><p>存储器（SRAM,FLASH）指可以存储数据的设备，买回来的存储器是没有地址的，给存储器分配地址的过程就叫存储器映射</p>
+<h4 id="寄存器"><a href="#寄存器" class="headerlink" title="寄存器"></a>寄存器</h4><h5 id="寄存器基础知识"><a href="#寄存器基础知识" class="headerlink" title="寄存器基础知识"></a>寄存器基础知识</h5><p>寄存器是单片机内部的一种特殊内存，可以对单片机各个功能的控制</p>
+<h5 id="寄存器映射"><a href="#寄存器映射" class="headerlink" title="寄存器映射"></a>寄存器映射</h5><p>寄存器是一种特殊的存储器，给寄存器地址命名的过程就是寄存器映射<br>直接操作寄存器地址：</p>
+<blockquote>
+<p><em>(unsigned int</em>)(0x4001080c) &#x3D; 0xffff;</p>
+</blockquote>
+<p>寄存器映射后再进行操作：</p>
+<blockquote>
+<p>#define GPIOA_ODR <em>(unsigned int</em>)(0x4001080c)<br>GPIOA_ODR &#x3D; 0XFFFF;</p>
+</blockquote>
+<h5 id="寄存器地址计算"><a href="#寄存器地址计算" class="headerlink" title="寄存器地址计算"></a>寄存器地址计算</h5><p>寄存器地址分三类：<br>1.总线基地址（BUS_BASE_ADDR）<br>2.外设基于总线基地址的偏移量（PERIPH_OFFSET）<br>3.寄存器相对于外设的偏移量<br>APB1总线地址也叫外设基地址</p>
+]]></content>
+      <categories>
+        <category>stm32</category>
+      </categories>
+      <tags>
+        <tag>stm32 单片机</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>单片机简介</title>
     <url>/2023/07/24/%E5%8D%95%E7%89%87%E6%9C%BA%E7%AE%80%E4%BB%8B/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="单片机认识"><a href="#单片机认识" class="headerlink" title="单片机认识"></a>单片机认识</h3><p><strong>单片机:单片微型计算机，是一种集成电路芯片</strong><br><strong>下图为单片机各部分与电脑的对应关系</strong></p>
@@ -72,6 +95,7 @@
 <li><a href="https://www.stmcu.org.cn/">中文社区网</a></li>
 <li><a href="https://ww.st.com/">st官网</a></li>
 </ul>
+<h4 id="32引脚类型"><a href="#32引脚类型" class="headerlink" title="32引脚类型"></a>32引脚类型</h4><p>电源引脚：v开头的引脚<br>晶振引脚：pc….8&#x2F;9为低速引脚，osc…..23&#x2F;24为高速引脚<br>复位引脚:NRST 25<br>下载引脚：JTAG(仿真，调试，下载)pa15，pa14，pa13，pb3，pb4;SWD(下载，仿真)PA13,PA14;串口(下载)PA9,PA10;<br>BOOT引脚：BOOT0，PB2(BOOT1)<br>GPIO引脚：p开头</p>
 ]]></content>
       <tags>
         <tag>单片机 note</tag>
